@@ -36,7 +36,6 @@ class final_net(nn.Module):
                    window_size=window_size, img_range=1., depths=[6, 6, 6, 6],
                    embed_dim=60, num_heads=[6, 6, 6, 6], mlp_ratio=2, upsampler='')
         self.stereo_LSTM = R_CLSTM_5_stereo(block_channel)
-        self.conv_last = nn.Conv2d(embed_dim, 3, 1, 1)
 
     def forward(self, x, x2):
         x, b, d = cubes_2_maps(x)
