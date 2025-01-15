@@ -1,4 +1,4 @@
-**Enhancing Outdoor Vision: Binocular Desnowing with Dual-Stream Temporal Transformer**
+ # Enhancing Outdoor Vision: Binocular Desnowing with Dual-Stream Temporal Transformer**
 
 **Requirements**
 
