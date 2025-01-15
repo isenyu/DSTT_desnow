@@ -1,6 +1,6 @@
  # Enhancing Outdoor Vision: Binocular Desnowing with Dual-Stream Temporal Transformer
 
-**Requirements**
+**Running environments**
 
 python==3.8 
 
